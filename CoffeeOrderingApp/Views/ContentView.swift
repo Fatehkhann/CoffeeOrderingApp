@@ -21,7 +21,7 @@ struct ContentView: View {
             .navigationBarTitle("Coffee Orders")
             
                 .navigationBarItems(leading: Button(action: reloadOrders) {
-                    Image(systemName: "plus")
+                    Image(systemName: "circle")
                         .foregroundColor(Color.white)
                 }, trailing: Button(action: showAddCoffeeOrderView) {
                     Image(systemName: "plus").foregroundColor(Color.white)
